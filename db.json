@@ -1,0 +1,43 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Encanto",
+      "genre": "family",
+      "date": "",
+      "rating": 8,
+      "review": "Good film"
+    }
+  ],
+
+  "games": [
+    {
+      "id": 1,
+      "title": "Persona 5",
+      "genre": "JRPG",
+      "date": "",
+      "rating": 8,
+      "review": "Good game"
+    },
+
+    {
+      "id": 1,
+      "title": "Final Fantasy 7 Remake",
+      "genre": "RPG",
+      "date": "",
+      "rating": 8,
+      "review": ""
+    }
+  ],
+
+  "books": [
+    {
+      "id": 1,
+      "title": "The Thursday Murder Club",
+      "genre": "Mystery/Crime",
+      "author": "Richard Osman",
+      "rating": 8,
+      "review": ""
+    }
+  ]
+}
