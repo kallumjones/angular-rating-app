@@ -13,6 +13,7 @@ import { AddButtonComponent } from './components/add-button/add-button.component
 import { BannerComponent } from './components/banner/banner.component';
 import { BooksComponent } from './components/books/books.component';
 import { BookItemComponent } from './components/book-item/book-item.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BookItemComponent } from './components/book-item/book-item.component';
     AddButtonComponent,
     BannerComponent,
     BooksComponent,
-    BookItemComponent
+    BookItemComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
