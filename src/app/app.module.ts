@@ -11,6 +11,8 @@ import { FilmItemComponent } from './components/film-item/film-item.component';
 import { VideoGameItemComponent } from './components/video-game-item/video-game-item.component';
 import { AddButtonComponent } from './components/add-button/add-button.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { BooksComponent } from './components/books/books.component';
+import { BookItemComponent } from './components/book-item/book-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BannerComponent } from './components/banner/banner.component';
     FilmItemComponent,
     VideoGameItemComponent,
     AddButtonComponent,
-    BannerComponent
+    BannerComponent,
+    BooksComponent,
+    BookItemComponent
   ],
   imports: [
     BrowserModule,

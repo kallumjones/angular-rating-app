@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter } from '@angular/core';
 import { VideoGame } from 'src/app/VideoGame';
 
 @Component({
@@ -14,5 +14,6 @@ export class VideoGameItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

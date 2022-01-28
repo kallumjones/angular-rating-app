@@ -1,4 +1,23 @@
-<div>
-  <h2>{{videoGame.title}}</h2>
-  <h2>{{videoGame.genre}}</h2>
+<div class="card">
+  <div class="card-info">
+
+    <div class="card-info__text">
+      <h3>{{videoGame.title}}</h3>
+      <h4>{{videoGame.genre}}</h4>
+    </div>
+
+    <div class="card-info__rating">
+      <span>
+        {{videoGame.rating}}
+      </span>
+    </div>
+  </div>
+
+  <div class="card-rev-container">
+    <p class="card-rev-text">{{videoGame.review}}</p>
+  </div>
+
+  <div class="btn-container">
+    <button class="card-btn">Update Review</button>
+  </div>
 </div>
