@@ -1,4 +1,5 @@
 <div>
+  <app-banner [pageTitle]="title" [buttonText]="singularItem"></app-banner>
   <app-video-game-item *ngFor="let videoGame of videoGames"
   [videoGame]="videoGame">
 </app-video-game-item>

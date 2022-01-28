@@ -10,6 +10,7 @@ import { FilmsComponent } from './components/films/films.component';
 import { FilmItemComponent } from './components/film-item/film-item.component';
 import { VideoGameItemComponent } from './components/video-game-item/video-game-item.component';
 import { AddButtonComponent } from './components/add-button/add-button.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AddButtonComponent } from './components/add-button/add-button.component
     FilmsComponent,
     FilmItemComponent,
     VideoGameItemComponent,
-    AddButtonComponent
+    AddButtonComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

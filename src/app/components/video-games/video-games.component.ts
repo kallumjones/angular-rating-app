@@ -9,6 +9,7 @@ import { VideoGameService } from 'src/app/services/video-game.service';
 })
 export class VideoGamesComponent implements OnInit {
   title:string = 'Video Games';
+  singularItem:string = 'Video Game';
   videoGames: VideoGame[] = [];
 
   constructor(private videoGameService: VideoGameService) {
