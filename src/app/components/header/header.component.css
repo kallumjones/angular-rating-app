@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 20px; */
+
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.horiz-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horiz-list-item {
+  margin-right: 24px;
+}
+
+.horiz-list-item:hover {
+  color: #5f5f6e;
+  cursor: pointer;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
